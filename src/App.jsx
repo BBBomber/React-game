@@ -4,10 +4,10 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
   const { unityProvider } = useUnityContext({
-    loaderUrl: "buildUnity/Game1.loader.js",
-    dataUrl: "buildUnity/Game1.data.unityweb",
-    frameworkUrl: "buildUnity/Game1.framework.js.unityweb",
-    codeUrl: "buildUnity/Game1.wasm.unityweb",
+    loaderUrl: "buildUnity/Kenogames.loader.js",
+    dataUrl: "buildUnity/Kenogames.data.unityweb",
+    frameworkUrl: "buildUnity/Kenogames.framework.js.unityweb",
+    codeUrl: "buildUnity/Kenogames.wasm.unityweb",
   });
 
   return <Unity unityProvider={unityProvider} />;
